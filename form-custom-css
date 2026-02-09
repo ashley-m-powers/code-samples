@@ -1,0 +1,137 @@
+<style type="text/css">
+/******BEGIN FORM LEVEL STYLES******/
+/*HEADER */
+.wFormContainer .wFormHeader{
+ display: none;
+}
+
+/*MARGIN ABOVE DONATION SELECTION BUTTONS*/
+
+table#tfa_218 {
+  margin-top: 15px;
+}
+
+/*HIDE RADIO BUTTONS*/
+
+table#tfa_218 .oneChoice input {
+  display: none;
+}
+
+/*DONATION AMOUNT BUTTON STYLES*/
+
+.wFormContainer .wForm form table#tfa_218 td label {
+  background-color: #00005A;
+  padding-right: 20px;
+  color: white;
+  width: 260px;
+  padding: 15px 25px;
+  margin: 0 8px 0px 0;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.wFormContainer .wForm form table#tfa_218 td label:hover {
+  background-color: #002AC2;
+  color: white;
+}
+
+.wFormContainer .wForm form table#tfa_218 td input[type="radio"]:checked+label {
+  background-color: #002AC2;
+  color: white;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+/*LIGHTBLUE COLOR AND SPACE AROUND DONOR LEVEL QUALIFIED FOR*/
+
+input#tfa_178 {
+  padding-left: 0;
+  font-weight: bold;
+}
+
+div#tfa_178-D {
+  background-color: #EFECEA;
+  padding: 12px;
+}
+
+/*SPACING IN PAYMENT FREQUENCY SENTENCE*/
+
+div#tfa_195-D {
+  padding-left: 0;
+}
+
+input#tfa_195, input#tfa_208, input#tfa_174 {
+  width: auto;
+  padding-left: 0;
+  padding-bottom: 4px;
+  height: auto;
+  font-weight: bold;
+}
+
+/*SPACING IN PAYMENT INSTALLMENT SUMMARY SENTENCE*/
+
+#tfa_174-D {
+  padding-left: 0;
+}
+
+#tfa_208-D {
+  padding-right: 0;
+}
+
+#tfa_245 input {
+  padding: 0;
+}
+
+/*FONT SIZE FOR "I WOULD LIKE TO DIVIDE PAYMENTS" CHECKBOX*/
+
+label#tfa_183-L span {
+  font-size: 100% !important;
+}
+
+/*MOBILE STYLES*/
+
+@media (max-width: 768px) {
+  .wForm form table.choices td {
+    display: block;
+  }
+  .wForm .inline div.oneField {
+    display: block;
+  }
+  div#tfa_43-D span.twitter-typeahead, div#tfa_87-D span.twitter-typeahead, div#tfa_159-D span.twitter-typeahead {
+    display: block !important;
+  }
+  .wFormContainer #tfa_131-HTML img {
+    width: 100px !important;
+  }
+  .wFormContainer #tfa_131-HTML {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 500px) {
+  .wFormContainer .wForm form table#tfa_218 td label {
+    width: 220px;
+    margin: 0;
+  }
+  .wFormContainer #tfa_131-HTML img {
+    width: 100px !important;
+  }
+  .wFormContainer #tfa_131-HTML {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 330px) {
+  .wFormContainer .wForm form table#tfa_218 td label {
+    width: 190px;
+  }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 40/71) and (orientation:portrait) {
+  .wFormContainer .wForm form table#tfa_218 td label {
+    width: 170px;
+  }
+}
+
+/******END FORM LEVEL STYLES******/
+</style>
