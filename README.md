@@ -1,2 +1,2 @@
-# code-samples
-Code samples from Ashley Powers
+# Code Samples
+A collection of recent code samples from Ashley Powers
